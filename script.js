@@ -96,7 +96,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Typing Effect
     const typingText = document.querySelector('.typing-text');
-    const words = ["Mobile App Developer", "Flutter Specialist", "iOS & Android", "UI/UX Engineer"];
+    const words = ["Mobile App Developer", "Flutter Developer", "Frontend Developer", "UI/UX Engineer", "React & Vue Dev"];
     let wordIndex = 0;
     let charIndex = 0;
     let isDeleting = false;

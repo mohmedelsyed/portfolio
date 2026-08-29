@@ -4,11 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mohamed Elsayed | Mobile App Developer</title>
+    <title>Mohamed Elsayed | Mobile App & Frontend Developer</title>
+    <meta name="description" content="Mohamed Elsayed – Mobile App Developer & Frontend Developer specializing in Flutter, Dart, React, and modern web technologies. Available for hire.">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&display=swap" rel="stylesheet">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- AOS Animation CSS -->
@@ -18,7 +19,11 @@
 </head>
 
 <body>
-    <!-- Professional Tech Background -->
+    <!-- Animated Background Orbs -->
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+    <div class="bg-orb orb-3"></div>
+    <div class="grid-overlay"></div>
     <canvas id="professional-bg"></canvas>
 
     <!-- Navigation -->
@@ -53,6 +58,15 @@
                     <div class="mt-4">
                         <a href="#portfolio" class="btn btn-primary btn-lg glow-btn me-3">View My Work</a>
                         <a href="#contact" class="btn btn-outline-light btn-lg">Contact Me</a>
+                    </div>
+                    <!-- Quick Contact Links -->
+                    <div class="hero-contact-links mt-4 d-flex align-items-center gap-3 flex-wrap">
+                        <a href="mailto:mohmedelsyed981@gmail.com" class="hero-contact-chip" id="hero-email-link">
+                            <i class="fas fa-envelope me-2"></i>mohmedelsyed981@gmail.com
+                        </a>
+                        <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="hero-contact-chip github-chip" id="hero-github-link">
+                            <i class="fab fa-github me-2"></i>GitHub
+                        </a>
                     </div>
                 </div>
                 <div class="col-lg-6 hero-img-container text-center" data-aos="fade-left">
@@ -110,26 +124,10 @@
                                         </p>
                                     </div>
 
-                                    <!-- Education Section
-                                    <div class="education-card p-4 mt-4 d-flex align-items-center gap-4"
-                                        style="background: rgba(255,255,255,0.05); border-left: 4px solid var(--primary-color); border-radius: 15px;">
-                                        <div class="university-logo" style="min-width: 80px;">
-                                            <img src="university_logo.png" alt="Damietta University Logo"
-                                                class="img-fluid" style="max-width: 80px; border-radius: 10px;">
-                                        </div>
-                                        <div>
-                                            <h6 class="text-primary mb-1 fw-bold"><i
-                                                    class="fas fa-graduation-cap me-2"></i>Education</h6>
-                                            <p class="text-white mb-1 fw-semibold">Student at Damietta University</p>
-                                            <p class="text-secondary mb-0 small">Faculty of Computers and Artificial
-                                                Intelligence</p>
-                                        </div>
-                                    </div> -->
-
-                                    <div class="mt-5 d-flex gap-3">
+                                    <div class="mt-5 d-flex gap-3 flex-wrap">
                                         <a href="#contact" class="btn btn-primary rounded-pill px-4 py-2 fw-bold">Hire
                                             Me</a>
-                                        <a href="#"
+                                        <a href="Mohamed Elsayed - Front-End Developer - CV.pdf" download
                                             class="btn btn-outline-light rounded-pill px-4 py-2 fw-bold">Download CV</a>
                                     </div>
                                 </div>
@@ -299,9 +297,11 @@
             </div>
         </div>
     </section>
-    <!-- 
-    <!-- SECTION 5: SKILLS -->
-    <!-- <section id="skills" class="screen d-flex align-items-center">
+
+    <!-- ============================================================
+         SECTION 5: SKILLS  (Frontend Developer + Flutter Developer)
+         ============================================================ -->
+    <section id="skills" class="screen d-flex align-items-center">
         <div class="container">
             <div class="row justify-content-center mb-5">
                 <div class="col-lg-8 text-center">
@@ -310,49 +310,117 @@
                     <div class="divider mx-auto"></div>
                 </div>
             </div>
-            <div class="row g-4">
-                <!-- Skill 1 -->
-    <!-- <div class="col-md-6 col-lg-3">
-                    <div class="skill-card text-center">
-                        <i class="fab fa-flutter fa-3x text-blue mb-3"></i>
-                        <h4 class="text-white">Flutter & Dart</h4>
-                        <div class="progress mt-3">
-                            <div class="progress-bar bg-blue" style="width: 95%"></div>
+
+            <div class="row g-5">
+
+                <!-- ── Frontend Developer ── -->
+                <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+                    <div class="skills-panel frontend-panel h-100">
+                        <div class="skills-panel-header">
+                            <div class="skills-panel-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div>
+                                <h3 class="skills-panel-title">Frontend Developer</h3>
+                                <p class="skills-panel-sub">Web Technologies &amp; Design</p>
+                            </div>
+                        </div>
+                        <div class="skills-grid">
+                            <div class="skill-tag" data-aos="zoom-in" data-aos-delay="150">
+                                <i class="fab fa-html5 skill-icon html"></i>
+                                <span>HTML5</span>
+                            </div>
+                            <div class="skill-tag" data-aos="zoom-in" data-aos-delay="180">
+                                <i class="fab fa-css3-alt skill-icon css"></i>
+                                <span>CSS3</span>
+                            </div>
+                            <div class="skill-tag" data-aos="zoom-in" data-aos-delay="210">
+                                <i class="fab fa-js skill-icon js"></i>
+                                <span>JavaScript (ES6+)</span>
+                            </div>
+                            <div class="skill-tag" data-aos="zoom-in" data-aos-delay="240">
+                                <i class="fab fa-react skill-icon react"></i>
+                                <span>React.js</span>
+                            </div>
+                            <div class="skill-tag" data-aos="zoom-in" data-aos-delay="270">
+                                <i class="fab fa-vuejs skill-icon vue"></i>
+                                <span>Vue.js</span>
+                            </div>
+                            <div class="skill-tag" data-aos="zoom-in" data-aos-delay="300">
+                                <i class="fab fa-bootstrap skill-icon bootstrap"></i>
+                                <span>Bootstrap</span>
+                            </div>
+                            <div class="skill-tag" data-aos="zoom-in" data-aos-delay="330">
+                                <i class="fas fa-plug skill-icon api"></i>
+                                <span>REST APIs</span>
+                            </div>
+                            <div class="skill-tag" data-aos="zoom-in" data-aos-delay="360">
+                                <i class="fab fa-github skill-icon github"></i>
+                                <span>Git &amp; GitHub</span>
+                            </div>
+                            <div class="skill-tag" data-aos="zoom-in" data-aos-delay="390">
+                                <i class="fas fa-mobile-screen skill-icon responsive"></i>
+                                <span>Responsive Design</span>
+                            </div>
+                            <div class="skill-tag" data-aos="zoom-in" data-aos-delay="420">
+                                <i class="fas fa-pencil-ruler skill-icon uiux"></i>
+                                <span>UI/UX</span>
+                            </div>
                         </div>
                     </div>
-                </div> -->
-    <!-- Skill 2 -->
-    <!-- <div class="col-md-6 col-lg-3">
-                    <div class="skill-card text-center">
-                        <i class="fab fa-android fa-3x text-orange mb-3"></i>
-                        <h4 class="text-white">Android/iOS</h4>
-                        <div class="progress mt-3">
-                            <div class="progress-bar bg-orange" style="width: 90%"></div>
+                </div>
+
+                <!-- ── Flutter Developer ── -->
+                <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
+                    <div class="skills-panel flutter-panel h-100">
+                        <div class="skills-panel-header">
+                            <div class="skills-panel-icon flutter-icon-bg">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <div>
+                                <h3 class="skills-panel-title">Flutter Developer</h3>
+                                <p class="skills-panel-sub">Mobile App Development</p>
+                            </div>
+                        </div>
+                        <div class="skills-grid">
+                            <div class="skill-tag flutter-tag" data-aos="zoom-in" data-aos-delay="150">
+                                <i class="fas fa-feather skill-icon flutter"></i>
+                                <span>Flutter</span>
+                            </div>
+                            <div class="skill-tag flutter-tag" data-aos="zoom-in" data-aos-delay="180">
+                                <i class="fas fa-circle-dot skill-icon dart"></i>
+                                <span>Dart</span>
+                            </div>
+                            <div class="skill-tag flutter-tag" data-aos="zoom-in" data-aos-delay="210">
+                                <i class="fas fa-fire skill-icon firebase"></i>
+                                <span>Firebase</span>
+                            </div>
+                            <div class="skill-tag flutter-tag" data-aos="zoom-in" data-aos-delay="240">
+                                <i class="fas fa-plug skill-icon api"></i>
+                                <span>REST APIs</span>
+                            </div>
+                            <div class="skill-tag flutter-tag" data-aos="zoom-in" data-aos-delay="270">
+                                <i class="fas fa-layer-group skill-icon state"></i>
+                                <span>State Management</span>
+                            </div>
+                            <div class="skill-tag flutter-tag" data-aos="zoom-in" data-aos-delay="300">
+                                <i class="fas fa-mobile-screen skill-icon responsive"></i>
+                                <span>Responsive UI</span>
+                            </div>
+                            <div class="skill-tag flutter-tag" data-aos="zoom-in" data-aos-delay="330">
+                                <i class="fab fa-github skill-icon github"></i>
+                                <span>Git &amp; GitHub</span>
+                            </div>
+                            <div class="skill-tag flutter-tag" data-aos="zoom-in" data-aos-delay="360">
+                                <i class="fas fa-palette skill-icon design"></i>
+                                <span>Design</span>
+                            </div>
                         </div>
                     </div>
-                </div> -->
-    <!-- Skill 3 -->
-    <!-- <div class="col-md-6 col-lg-3">
-                    <div class="skill-card text-center">
-                        <i class="fab fa-google fa-3x text-yellow mb-3"></i>
-                        <h4 class="text-white">Firebase</h4>
-                        <div class="progress mt-3">
-                            <div class="progress-bar bg-yellow" style="width: 85%"></div>
-                        </div>
-                    </div>
-                </div> -->
-    <!-- Skill 4 -->
-    <!-- <div class="col-md-6 col-lg-3">
-                    <div class="skill-card text-center">
-                        <i class="fas fa-code-branch fa-3x text-purple mb-3"></i>
-                        <h4 class="text-white">Clean Arch</h4>
-                        <div class="progress mt-3">
-                            <div class="progress-bar bg-purple" style="width: 92%"></div>
-                        </div>
-                    <!-- </div> -->
-    </div>
-    </div>
-    </div>
+                </div>
+
+            </div>
+        </div>
     </section>
 
     <!-- SECTION 6: EXPERIENCE -->
@@ -529,7 +597,7 @@
         </div>
     </section>
 
-    <!-- SECTION 5: CONTACT -->
+    <!-- SECTION 8: CONTACT -->
     <section id="contact" class="screen d-flex align-items-center">
         <div class="container">
             <div class="row justify-content-center mb-5">
@@ -539,25 +607,73 @@
                     <div class="divider mx-auto"></div>
                 </div>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
+            <div class="row justify-content-center g-5">
+
+                <!-- Contact Info Panel -->
+                <div class="col-lg-4" data-aos="fade-right">
+                    <div class="contact-info-panel h-100">
+                        <h4 class="text-white fw-bold mb-4">Let's Connect</h4>
+                        <p class="text-secondary mb-4" style="line-height:1.8;">Feel free to reach out for collaboration, freelance work, or just a friendly chat. I'm always open to new opportunities!</p>
+
+                        <!-- Email -->
+                        <a href="mailto:mohmedelsyed981@gmail.com" class="contact-info-item" id="contact-email-link">
+                            <div class="contact-info-icon email-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <small class="text-muted d-block">Email</small>
+                                <span class="text-white fw-semibold">mohmedelsyed981@gmail.com</span>
+                            </div>
+                        </a>
+
+                        <!-- GitHub -->
+                        <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="contact-info-item" id="contact-github-link">
+                            <div class="contact-info-icon github-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div>
+                                <small class="text-muted d-block">GitHub</small>
+                                <span class="text-white fw-semibold">github.com/MohamedElsayed</span>
+                            </div>
+                        </a>
+
+                        <!-- Social Icons Row -->
+                        <div class="social-row mt-4">
+                            <a href="mailto:mohmedelsyed981@gmail.com" class="social-pill" id="footer-email-social" title="Email">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                            <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="social-pill github-pill" id="footer-github-social" title="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="social-pill linkedin-pill" id="footer-linkedin-social" title="LinkedIn">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" class="social-pill twitter-pill" id="footer-twitter-social" title="Twitter / X">
+                                <i class="fab fa-x-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="col-lg-8" data-aos="fade-left">
                     <div class="glass-form p-5">
-                        <form>
+                        <form id="contact-form">
                             <div class="row">
                                 <div class="col-md-6 mb-3">
-                                    <input type="text" class="form-control" placeholder="Your Name">
+                                    <input type="text" class="form-control" id="contact-name" placeholder="Your Name">
                                 </div>
                                 <div class="col-md-6 mb-3">
-                                    <input type="email" class="form-control" placeholder="Your Email">
+                                    <input type="email" class="form-control" id="contact-email" placeholder="Your Email">
                                 </div>
                             </div>
                             <div class="mb-3">
-                                <input type="text" class="form-control" placeholder="Subject">
+                                <input type="text" class="form-control" id="contact-subject" placeholder="Subject">
                             </div>
                             <div class="mb-3">
-                                <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+                                <textarea class="form-control" id="contact-message" rows="5" placeholder="Message"></textarea>
                             </div>
-                            <button type="submit" class="btn btn-primary w-100 btn-lg glow-btn">Send Message</button>
+                            <button type="submit" class="btn btn-primary w-100 btn-lg glow-btn" id="contact-submit-btn">Send Message</button>
                         </form>
                     </div>
                 </div>
@@ -566,9 +682,26 @@
     </section>
 
     <!-- Footer -->
-    <footer class="text-center py-4 bg-darker">
+    <footer class="text-center py-5 bg-darker footer-main">
         <div class="container">
-            <p class="text-secondary mb-0">&copy; 2024 Mohamed Elsayed. All Rights Reserved.</p>
+            <div class="footer-social mb-3">
+                <a href="mailto:mohmedelsyed981@gmail.com" class="footer-icon" id="footer-email-icon" title="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="footer-icon github-footer-icon" id="footer-github-icon" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="footer-icon" id="footer-linkedin-icon" title="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="#" class="footer-icon" id="footer-twitter-icon" title="Twitter / X">
+                    <i class="fab fa-x-twitter"></i>
+                </a>
+            </div>
+            <p class="text-secondary mb-1">&copy; 2025 Mohamed Elsayed. All Rights Reserved.</p>
+            <p class="footer-email-line mb-0">
+                <a href="mailto:mohmedelsyed981@gmail.com" id="footer-email-text"><i class="fas fa-envelope me-2"></i>mohmedelsyed981@gmail.com</a>
+            </p>
         </div>
     </footer>
 
